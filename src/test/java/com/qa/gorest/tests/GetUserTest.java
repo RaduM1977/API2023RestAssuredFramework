@@ -46,10 +46,10 @@ public class GetUserTest extends BaseTest{
 		
 		 //restClient = new RestClient(prop,baseURI);  //-->  we create the object in the BeforeMethod
 		
-		restClient.get(GOREST_ENDPOINT+"/"+628270,true,true)
+		restClient.get(GOREST_ENDPOINT+"/"+4488372,true,true)
 				.then().log().all()
 					.assertThat().statusCode(APIHttpStatus.OK_200.getCode())
-						.and().body("id", equalTo(628270));
+						.and().body("id", equalTo(4488372));
 		System.out.println("----------");
 		
 	}
