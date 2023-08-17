@@ -41,7 +41,7 @@ public class GetUserTest extends BaseTest{
 	}
 	
 	///public/v2/users/628270/?name&status
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void getUserTest() {
 		
 		 //restClient = new RestClient(prop,baseURI);  //-->  we create the object in the BeforeMethod

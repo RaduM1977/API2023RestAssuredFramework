@@ -10,16 +10,16 @@
 			class-name="com.qa.gorest.listeners.ExtentReportListener" />
 	</listeners>
 
-	<!-- <test name="Amadeus Flight API Test">
+	<!--  <test name="Amadeus Flight API Test">
 		<parameter name="baseURI" value="https://test.api.amadeus.com" />
 		<parameter name="grantType" value="client_credentials" />
 		<parameter name="clientId" value="TAnRnsU5lASXZ8mPGdwRQZMoQzhu6Gwv" />
 		<parameter name="clientSecret" value="VjjgfcJilNAzcSJw" />
 		
 		<classes>
-			<class name="com.qa.gorest.tests.AmadeusAPITest" />
+			<class name="com.qa.gorest.tests.AmadeusApiTest" />
 		</classes>
-	</test> -->
+	</test>  -->
 
 	<test name="Go Rest API Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
@@ -66,6 +66,6 @@
 		</classes>
 	</test>
 
-
+ 
 
 </suite>
